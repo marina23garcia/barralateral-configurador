@@ -722,6 +722,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
 .bg-movil-pattern-svg {
   background-image: url('https://cdn.janto.es/test/pruebas/design/20220112111917_1641982757.1012backsvg.svg');
 }
