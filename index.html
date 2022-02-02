@@ -5,10 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/output.css" rel="stylesheet" />
   </head>
-  <body>
-   <div class="w-[500px] h-[500px] bg-orange-600">
-     <h1>ESTA ES UNA PRUEBA</h1>
-      <h1 class="text-2xl font-bold">Este texto está en negrita</h1>
+
+  <body class="m-0 flex">
+  <div class="w-80 bg-oscuroSombra block pb-10">
+   <div class="w-28 h-28 pt-4 pl-4">
+     <img src="/img/logo-janto.svg" alt="">
+    </div>
+
+    <div class="relative w-64 h-6 ml-4 -top-5">
+      <input 
+        type="text"
+        id="text2"
+        class="peer w-full h-full bg-white border-none text-gray rounded-sm focus:outline-principal border-b-2 border-apagado focus:border-principal pl-1 placeholder-transparent text-colorText font-sans py-1"
+        placeholder="Buscar">
+    
+       <label 
+        for="text2" 
+        class="pl-2 absolute top-1.5 left-72 cursor-text peer-placeholder-shown:left-0 transition-all duration-500 peer-focus:left-56 text-principal peer-placeholder-shown:text-apagado peer-focus:text-principal">
+            <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24" class="w-5 h-5 cursor-pointer text-principal">
+            <path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" class="heroicon-ui">
+            </path>
+          </svg>
+        </label>
+    </div>
+
+     <nav class="m-0">
+       <ul class="list-none p-0 pb-6 m-0">
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">CALIDAD</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">DEMO AMAZON</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">DESARROLLO</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">PRE</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">4TICKETS</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">ARGENTINA</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">CEMUSA</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">DONATELA</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">FRESH</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">IBERCAJA</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">KUTXABANK</div></li>
+         <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-oscuroAcento">LIBERBANK</div></li>
+       </ul>
+     </nav>
+
+     <button class="bg-principal rounded-full px-4 py-0 text-white font-sans border-none cursor-pointer ml-4 flex items-center justify-center w-36 hover:bg-oscuroAcento">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus fa-w-14  w-4 h-4 pr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+      <p class="h-2 text-sm pb-3">Nueva MB</p>  
+    </button>
+
+     <button class="bg-transparent text-apagado font-sans border-none cursor-pointer ml-4 flex items-center">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sign-out-alt" class="svg-inline--fa fa-sign-out-alt fa-w-16 w-4 h-4 pr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M497 273L329 441c-15 15-41 4.5-41-17v-96H152c-13.3 0-24-10.7-24-24v-96c0-13.3 10.7-24 24-24h136V88c0-21.4 25.9-32 41-17l168 168c9.3 9.4 9.3 24.6 0 34zM192 436v-40c0-6.6-5.4-12-12-12H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h84c6.6 0 12-5.4 12-12V76c0-6.6-5.4-12-12-12H96c-53 0-96 43-96 96v192c0 53 43 96 96 96h84c6.6 0 12-5.4 12-12z"></path></svg>
+      <p class="h-4 text-sm pb-1">Cerrar sesión</p>  
+    </button>
+  
+</div>
+
+<div class="w-80 bg-luzSombra block pb-10 ml-96">
+  <div class="w-28 h-28 pt-4 pl-4">
+    <img src="/img/logo-janto.svg" alt="">
    </div>
+
+   <div class="relative w-64 h-6 ml-4 -top-5">
+     <input 
+       type="text"
+       id="text2"
+       class="peer w-full h-full bg-white border-none text-gray rounded-sm focus:outline-principal border-b-2 border-apagado focus:border-principal pl-1 placeholder-transparent text-colorText font-sans py-1"
+       placeholder="Buscar">
+   
+      <label 
+       for="text2" 
+       class="pl-2 absolute top-1.5 left-72 cursor-text peer-placeholder-shown:left-0 transition-all duration-500 peer-focus:left-56 text-base peer-placeholder-shown:text-gray-500 peer-focus:text-principal">
+           <svg fill="currentColor" viewBox="0 0 24 24" width="24" height="24" class="w-5 h-5 cursor-pointer text-principal">
+           <path d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" class="heroicon-ui">
+           </path>
+         </svg>
+       </label>
+   </div>
+
+    <nav class="m-0">
+      <ul class="list-none p-0 pb-6 m-0">
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">CALIDAD</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">DEMO AMAZON</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">DESARROLLO</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">PRE</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">4TICKETS</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">ARGENTINA</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">CEMUSA</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">DONATELA</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">FRESH</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">IBERCAJA</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">KUTXABANK</div></li>
+        <li><div class="text-white font-sans p-1.5 pl-10 cursor-pointer hover:bg-luzAcento hover:text-colorText">LIBERBANK</div></li>
+      </ul>
+    </nav>
+
+    <button class="bg-principal rounded-full px-4 py-0 text-white font-sans border-none cursor-pointer ml-4 flex items-center justify-center w-36 hover:bg-luzAcento hover:text-colorText">
+     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" class="svg-inline--fa fa-plus fa-w-14  w-4 h-4 pr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>
+     <p class="h-2 text-sm pb-3">Nueva MB</p>  
+   </button>
+
+    <button class="bg-transparent text-apagado font-sans border-none cursor-pointer ml-4 flex items-center">
+     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sign-out-alt" class="svg-inline--fa fa-sign-out-alt fa-w-16 w-4 h-4 pr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M497 273L329 441c-15 15-41 4.5-41-17v-96H152c-13.3 0-24-10.7-24-24v-96c0-13.3 10.7-24 24-24h136V88c0-21.4 25.9-32 41-17l168 168c9.3 9.4 9.3 24.6 0 34zM192 436v-40c0-6.6-5.4-12-12-12H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h84c6.6 0 12-5.4 12-12V76c0-6.6-5.4-12-12-12H96c-53 0-96 43-96 96v192c0 53 43 96 96 96h84c6.6 0 12-5.4 12-12z"></path></svg>
+     <p class="h-4 text-sm pb-1">Cerrar sesión</p>  
+   </button>
+ 
+</div>
   </body>
 </html>

@@ -3,15 +3,20 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'xxs': '9px',
+        
       },
       backgroundImage: {
-        'movil-pattern': "url('https://cdn.janto.es/test/pruebas/design/20220112105517_1641981317.4721backgrou.png')",
-        'movil-pattern-svg': "url('https://cdn.janto.es/test/pruebas/design/20220112111917_1641982757.1012backsvg.svg')",
+        
       },
       colors: {
-        primary: '#563D9B',
-        titles: '#575757',
+        base: "#177254",
+        principal: "#5A927E", 
+        apagado: "#e6e6e6",
+        luzAcento: "#D9E9E1",
+        luzSombra: "#7FB69C",
+        oscuroAcento: "#64A28C",
+        oscuroSombra: "#2b4545",
+        colorText: "#484848"
       },
     },
   },
