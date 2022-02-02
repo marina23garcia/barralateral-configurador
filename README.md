@@ -12,7 +12,7 @@ Ejemplo en el directorio /frontend (por ejemplo)
 
 ```console
 
-clone https://github.com/nyambe/tailwindcss-basico.git
+clone https://github.com/marina23garcia/barralateral-configurador.git
 
 cd tailwindcss-basico
 
